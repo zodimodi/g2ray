@@ -1,5 +1,5 @@
 {
-  "name": "swift-proxy-6c8c0c",
+  "name": "dark-link-d82b0b",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "swift-proxy-6c8c0c",
+      "label": "dark-link-d82b0b",
       "protocol": "http",
       "onAutoForward": "silent"
     }
